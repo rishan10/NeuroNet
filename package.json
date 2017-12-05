@@ -30,6 +30,7 @@
     "bootstrap": "^4.0.0-beta.2",
     "css-loader": "^0.28.7",
     "fontawesome": "^4.7.2",
+    "node-sass": "^4.7.2",
     "node-sass-loader": "^0.1.7",
     "pure-react-carousel": "^1.9.9",
     "react": "^15.6.2",
