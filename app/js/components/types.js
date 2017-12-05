@@ -49,19 +49,45 @@ class Types extends Component {
             Application for CNNs are mainly in image processing: recognizing on-screen patterns to play video <br></br>
                 games, finding cars in complicated images, and even learning how to cook from watching YouTube videos. 
 
-
-
-
-
              </p>
           </div>
 
           <div>
+            <img height="50%" width="50%" src='../images/recurrent.png'></img>
+
              <h3> Recurrent Neural Network</h3>
+
+             <p>A recurrent neural network, or RNN, is essentially the same as a feed forward network, <br></br>
+                but is able to have neurons draw data from <i>themselves</i> in previous iterations. <br></br>
+                Therefore, the order of data in the input later has an effect on the output. Therefore,<br></br>
+                RNNs are useful only for non-time-dependent datasets. 
+
+                <br></br><br></br>
+
+                Generally, RNNs are applicable in completing or advancing current information, such as autocomplete in <br></br>
+                texting applications. 
+             </p>
+
           </div>
 
           <div>
-             <h3> Autoencoders </h3>
+
+            <img height="30%" width="30%" src='../images/autoencoders.png'></img>
+            <h3> Autoencoders </h3>
+
+
+             <p>Autoencoders are similar to feed forward neural networks in that information is only<br></br>
+                passed forward from the input layer to the ouput layer; however, autoencoders have <br></br>
+                fewer middle input layers than the output or input layers. Therefore, the structure<br></br>
+                resembles an hourglass. Data is encoded from the input layer to the hidden layers, which<br></br>
+                contain the code, and decoded to the output layers.
+
+                <br></br><br></br>
+
+                Autoencoders are very useful for natural language processing, or NLP. They are also used in data<br></br>
+                compression algorithms and for pretraining other, more complicated, neural networks. 
+             </p>
+
           </div>
       </div>
     );
